@@ -1,0 +1,32 @@
+Falar para a criança que:
+    Copas é um coração vermelho
+    Paus é uma arvrinha preta
+    Ouros é um losangulo vermelho
+    Espadas é um coração invertido com um triangulo preto
+
+OBJETIVO: Lembrar que a carta a ser encontrada
+         número da carta, cor da carta, simbolo da carta.
+
+USAR: Se/ Senão/ Enquanto
+
+
+Algoritmo encontrarCarta
+
+Copas = Coração vermelho
+CartaQueQuero = Copas
+
+Copas: "É um coração vermelho"
+Paus: "É uma árvore preta gigante com três bolinhas"
+Ouros: "É um losangulo bem bonito e vermelho"
+Espadas: "É um coração virado para baixo com um triangulinho preto"
+
+Pegar uma carta em um monte de cartas
+    ENQUANTO tiver cartas no monte REPITA
+        SE é a CartaQueQuero
+            GRITE: EU SOU MARAVILHOSA
+        SENÃO   
+            Jogue a carta na parede
+            Pegue a próxima carta
+    Fim Algoritmo encontrarCarta
+
+

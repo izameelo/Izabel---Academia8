@@ -1,0 +1,26 @@
+Algoritmo númeroPensado
+
+NúmeroInicial: 1
+NúmeroFim: 50
+
+Palpite = (NúmeroInicial + NúmeroFim) /2
+
+Resposta: Não
+
+    Enquanto resposta for não
+     Pergunte ("O númeroPensado é igual ao Palpite?")
+
+        Se é o númeroPensado
+            A resposta é igual a sim
+
+        Senão 
+            Pergunte ("O númeroPensado é maior que o Palpite")
+
+            Se é o númeroPensado for maior que o Palpite
+                NúmeroInicial = Palpite
+            Senão
+                NúmeroFim = Palpite
+            fimse
+        fimse
+    fimenquanto
+fimalgoritmo

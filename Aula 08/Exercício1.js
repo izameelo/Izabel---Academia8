@@ -1,22 +1,17 @@
-let login = "@izameelo";
-let senha = "izm2019";
-
-let loginDigitado = prompt ("Digite seu login");
-let senhaDigitada = prompt ("Digite sua senha");
-
-if (login == loginDigitado){
-    if (senha == senhaDigitada){
-        alert ("Acesso liberado");
-    } else {
-        alert ("Acesso Negado");
-
-    } 
-    
-} else {
-    alert ("Tente outra vez!");
-}
-
-while (login =! loginDigitado){
-    alert ("Você foi negado")
-
+let usuario = "izameelo";
+let senha = "iz2019";
+let tentativas = 0;
+while(tentativas <=3){
+    let senhaDigitada = prompt("Senha");
+    let usuarioDigitado = prompt("Usuario");
+    if(senha == senhaDigitada && usuario == usuarioDigitado){
+        alert("voce logou");
+        tentativas = 100;
+    }else{
+        alert("usuario e/ou senha incorretos");
+        tentativas++;
+        if(tentativas == 4){
+            alert("conta bloqueada");
+        }
+    }
 }
